@@ -5,7 +5,7 @@
   "main": "arkanoid.js",
   "scripts": {
     "start": "parcel ./src/index.html",
-    "build": "babel build ./src/index.html",
+    "build": "parcel build ./src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,9 +21,5 @@
   "homepage": "https://github.com/thomaskokholm/arkanoid#readme",
   "dependencies": {
     "parcel-bundler": "^1.12.5"
-  },
-  "devDependencies": {
-    "babel-core": "^6.26.3",
-    "babel-preset-env": "^1.7.0"
   }
 }
